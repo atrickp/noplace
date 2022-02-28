@@ -1,47 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
   --glass: rgba(255, 255, 255, 0.199);
+
   --blue: blue;
 }
 body {
   box-sizing: border-box;
   margin: 3% 15%;
   padding: 0;
-  font-family: Syne Mono;
-  align-items: center;
-  background-image: url("./photo/1-a-blur.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
+  font-family: Syne;
   text-transform: lowercase;
+  background-size: auto;
 }
 
 footer {
-  background-color: var(--glass);
-  margin-top: 10%;
-  /* border: 1px solid blue; */
   text-align: right;
 }
 
 nav {
-  background-color: var(--glass);
-  /* border: 1px solid blue; */
   margin-top: 3%;
 }
 
-/* p {
-  font-family: "lack";
-} */
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  /* font-family: "lack"; */
-  font-weight: bold;
-}
 .bio p,
 nav p,
 footer p {
@@ -56,26 +37,16 @@ a:hover {
   color: var(--blue);
 }
 
-.topstuff {
-  display: grid;
-}
-
 .writing-links {
-  /* border: 1px solid blue; */
   margin: initial;
   margin-bottom: 20%;
   padding: 0 0.2rem;
 }
-.bio,
-.writing-links p {
-  background-color: var(--glass);
-}
+
 .caps {
   text-transform: none;
 }
 .rect {
-  /* border: 1px solid blue; */
-  background-color: var(--glass);
   padding: 0.2rem;
   margin-top: 3%;
 }
@@ -85,14 +56,13 @@ a:hover {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 @media (max-width: 650px) {
   body {
     font-size: 1rem;
     margin: 5% 2%;
-    background-image: url("./photo/mobile.png");
-
-    background-repeat: repeat-y;
-    background-position: center;
-    background-size: auto;
   }
 }

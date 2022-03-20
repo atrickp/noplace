@@ -4,7 +4,6 @@
 
 :root {
   --glass: rgba(255, 255, 255, 0.199);
-
   --blue: blue;
 }
 body {
@@ -29,6 +28,7 @@ nav p,
 footer p {
   padding: 0.2rem;
   margin: 0;
+  text-align: justify;
 }
 
 h1,
@@ -67,10 +67,43 @@ a:hover {
 img {
   width: 100%;
 }
+.one-a {
+  filter: blur(0.8rem);
+}
+.rect p {
+  margin-bottom: 1.5em;
+}
+
+.plink a,
+summary {
+  padding: 0.05em 0.5em;
+  border: 1px solid black;
+}
+
+.plink a:hover,
+summary:hover,
+.home:hover {
+  box-shadow: 2px 2px aqua;
+}
+summary {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.home {
+  position: fixed;
+  top: 0.5rem;
+  right: 2%;
+  border: 1px solid black;
+  padding: 0em 0.3em 0.2em 0.3em;
+  font-size: 1.1rem;
+  background: white;
+  transform: translateX(-1px);
+}
 
 @media (max-width: 650px) {
   body {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 5% 2%;
   }
 }

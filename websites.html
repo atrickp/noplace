@@ -8,26 +8,36 @@
   <title>projects</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    .cuter {
+    .withimg {
       display: flex;
+      justify-content: space-between;
       flex-direction: row-reverse;
     }
 
-    .cuter div {
-      padding-left: .5rem;
-    }
-
-    .cutergif img {
+    .imglink img {
       height: 15rem;
       width: auto;
       border: 1px solid blue;
+      margin-left: 1rem;
+      margin-bottom: .5rem;
+    }
 
+    h2 {
+      margin-top: 0;
+    }
+
+    em {
+      font-size: .7rem;
     }
 
     @media (max-width: 650px) {
-      .cuter {
+      .withimg {
         flex-direction: column;
         align-items: center;
+      }
+
+      .imglink img {
+        margin-left: 0;
       }
 
     }
@@ -35,30 +45,113 @@
 </head>
 
 <body>
-  <h1>some of the websites that i have made so far:</h1>
-  <div class="rect">
-    <h2><a class="caps" href="https://anomalous-u.com">ANOMALOUS_U</a></h2>
-    <p><span class="caps">ANOMALOUS_U</span> is a participatory experience exploring self-help and self-understanding.
-      Originally created for and
-      commissioned by <a href="https://www.redeyetheater.org/">Red Eye Theater</a> as part of <a
-        href="https://www.redeyetheater.org/new-works-4-weeks-festival-2021">New Works 4 Weeks Festival 2021</a>.
-      Visit the archived experience <a href="https://anomalous-u.com">here</a>.</p>
+  <h1>some of the websites that i have made:</h1>
 
+  <div class="rect withimg">
+    <a class="imglink" href="https://tones4u.org"><img src="./photo/tones4u.jpeg"
+        alt="mobile screenshot of tones4u app"></a>
+    <div>
+      <h2><a href="tones4u.org">⏦tones4u.org⏦</a></h2>
+      <p>A binaural sine wave sharing platform and archive ⏦</p>
+      <p>I think that any sound can elicit feelings, memories, and/or novel thoughts. I wanted to test the limits of
+        this. tones4u.org allows users to assemble 4 binaural* sine waves to any frequency and then provides a really
+        simple way to share these tones with anyone just by sharing a url. If they like their set of tones enough they
+        can submit them to the Tones Archive.</p>
+      <p><em>* Meaning that they are separated into two distinct channels (left and right), which when listened to with
+          headphones can create uncanny psychoacoustic effects, sometimes referred to as binaural beats.</em></p>
+
+
+      <p class="plink"><a href="https://tones4u.org">Website</a>
+        <a href="https://github.com/ptrkmrsck/tones4u">Github</a>
+      </p>
+    </div>
   </div>
-  <div class="rect cuter">
-    <a class="cutergif" href="https://cuterthanarlo.vercel.app/"><img src="./photo/cuterthan.gif"
+  <div class="rect withimg">
+    <a class="imglink" href="https://cuterthanarlo.vercel.app/"><img src="./photo/cuterthan.gif"
         alt="cuter than arlo gif"></a>
     <div>
       <h2><a href="https://cuterthanarlo.vercel.app/">cuterthanarlo</a></h2>
       <p>My partner Alana thinks our dog Arlo is the cutest. I wanted to know if this was actually the case, so I made a
         website that would quantify his cuteness. What I ended up making is basically tinder for dogs. <a
           href="https://cuterthanarlo.vercel.app/">Visit the site</a> and vote yourself, or check out Arlo's cuteness
-        score <a href="https://cuterthanarlo.vercel.app/arlo-stats">here</a></p>
+        score <a href="https://cuterthanarlo.vercel.app/arlo-stats">here</a>.</p>
+      <p class="plink"><a href="https://cuterthanarlo.vercel.app/">Website</a>
+        <a href="https://github.com/ptrkmrsck/cuterthanarlo">Github</a>
+      </p>
     </div>
   </div>
+  <div class="rect withimg">
+    <a class="imglink" href="https://anomalous-u.com"><img src="./photo/anomalous-u.jpeg" alt="cuter than arlo gif"></a>
+    <div>
+      <h2><a class="caps" href="https://anomalous-u.com">ANOMALOUS_U</a></h2>
+      <p>See <span class="caps">ANOMALOUS_U</span> in <a href="./projects.html">projects</a> for more context on this
+        project. The web component of
+        the project is very simple, which is key. The simpler the experience of visiting the webpages for the project,
+        the more users could focus on their perceptual experiences of each module. </p>
+      <p class="plink"><a href="https://anomalous-u.com">Website</a>
+      </p>
+    </div>
+
+  </div>
   <div class="rect">
-    <h2>Eternal September</h2>
-    <p>coming soon...</p>
+    <h2>Eternal September (coming soon...)</h2>
+    <p>
+      <em>Eternal September</em> is a deeply collaborative and extensive
+      alternate reality (aka MetaVerse) composed of interlocking music, text,
+      and video. Content in <em>Eternal September</em> is linked together by its own
+      indigenous Wiki System and will be supported by a decentralized,
+      equitable blockchain. There is no defining form of the
+      <em>Eternal September</em> - it is an organic and open-ended exercise in
+      collective imagination.
+    </p>
+    <details>
+      <summary>Read More...</summary>
+      <p>
+        Thus far, the artistic team includes
+        <a href="https://www.williambrittelle.com/">William Brittelle</a>
+        (composer/creator),
+        <a href="http://isaacgale.com/">Isaac Gale</a> (filmmaker), Patrick
+        Marschke (coding, editing),
+        <a href="https://www.hollandandrews.com/"> Holland Andrews</a>,
+        <a href="https://www.thisispolica.com/">Channy Leaneagh</a> (Poliça),
+        <a href="https://www.npr.org/2019/05/02/718790522/wills-gordon-voidwell-the-new-old-arts-funding">
+          Will Johnson</a>
+        (WILLS), Jenn Wasner (Wye Oak, Flock of Dimes, Bon Iver), Eliza Bagg
+        (Lisel),
+        <a href="http://www.immanuelwilkins.com/">Immanuel Wilkins</a> (sax),
+        <a href="https://www.youtube.com/watch?v=1xNCSJEgxbo">Ian Chang</a>
+        (Son Lux, Moses Sumney),
+        <a href="https://www.erikadohi.com/">Erika Dohi</a> (synth),
+        <a href="https://www.chrisfishmanmusic.com/bio">Chris Fishman</a>
+        (Flying Lotus), <a href="https://rafiqbhatia.com/">Rafiq Bhatia</a> (Son
+        Lux), <a href="https://www.jacksonahill.com/"> Jackson Hill</a> (bass),
+        the Grammy-winning
+        <a href="https://www.roomfulofteeth.org/">Roomful of Teeth</a>,
+        <a href="https://constellationchor.com/"> Constellation Chor</a>,
+        <a
+          href="https://www.williambrittelle.com/current-projects/2021/4/26/Featuring%20musician-composer%20supergroup%20William%20Brittelle%20(composer/creator),%20%20Holland%20Andrews,%20Channy%20Leaneagh%20(Poli%C3%A7a),%20Will%20Johnson%20(WILLS),%20%20Immanuel%20Wilkins%20(sax),%20Ian%20Chang%20(percussion),%20Erika%20Dohi%20(synth),%20Chris%20Fishman%20(keys),%20Rafiq%20Bhatia%20(guitar),%20Jackson%20Hill%20(bass),%20Roomful%20of%20Teeth,%20%20Constellation%20Chor%20and%20musicians%20of%20the%20Cincinnati%20Symphony%20Orchestra">
+          Metropolis Ensemble</a>, and musicians of the Cincinnati Symphony Orchestra. The
+        <em>Eternal Sepember</em> community of creators will continue to expand as new
+        content is developed.
+      </p>
+      <p>
+        Rather than centering on traditional live events and commercial
+        releases, the <em>Eternal Sepember</em> is structured around the release of
+        volumes of interrelated content. <em>Vol. 1</em>, a 90-minute "opening
+        tour" film, was co-presentation of
+        <a href="https://www.liquidmusic.org/"> Liquid Music</a>,
+        <a href="https://thegreatnorthernfestival.com/">The Great Northern</a>,
+        <a href="https://walkerart.org/">Walker Art Center</a> and
+        <a
+          href="https://www.cincinnatisymphony.org/tickets-and-events/buy-tickets/cso/cso-proof/2021/cso-proof-1-digital/">
+          Cincinnati Symphony Orchestra</a>
+        in partnership with the
+        <a
+          href="https://www.williambrittelle.com/current-projects/2021/4/26/Featuring%20musician-composer%20supergroup%20William%20Brittelle%20(composer/creator),%20%20Holland%20Andrews,%20Channy%20Leaneagh%20(Poli%C3%A7a),%20Will%20Johnson%20(WILLS),%20%20Immanuel%20Wilkins%20(sax),%20Ian%20Chang%20(percussion),%20Erika%20Dohi%20(synth),%20Chris%20Fishman%20(keys),%20Rafiq%20Bhatia%20(guitar),%20Jackson%20Hill%20(bass),%20Roomful%20of%20Teeth,%20%20Constellation%20Chor%20and%20musicians%20of%20the%20Cincinnati%20Symphony%20Orchestra">
+          Metropolis Ensemble</a>. <em>Vol. 2</em> will center on the unveiling of the full
+        Eternal September website.
+      </p>
+    </details>
   </div>
 
 </body>

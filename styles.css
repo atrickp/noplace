@@ -85,9 +85,14 @@ summary:hover,
 .home:hover {
   box-shadow: 2px 2px aqua;
 }
+
 summary {
   cursor: pointer;
   margin-bottom: 0.5rem;
+}
+
+summary:focus {
+  outline: none;
 }
 
 .home {

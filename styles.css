@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
   --glass: rgba(255, 255, 255, 0.199);
@@ -37,6 +36,18 @@ h3,
 h4,
 h5 {
   font-family: syne;
+}
+
+section {
+  margin: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: 1px solid blue;
+}
+
+ul {
+  list-style-position: outside;
+  padding: 0 1.2em;
 }
 a {
   color: black;
@@ -110,5 +121,9 @@ summary:focus {
   body {
     font-size: 0.8rem;
     margin: 5% 2%;
+  }
+  section {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }

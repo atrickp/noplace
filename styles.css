@@ -122,10 +122,23 @@ summary:focus {
   transform: translateX(-1px);
 }
 
+figcaption {
+  font-size: 0.8rem;
+}
+
+figcaption,
+figcaption a {
+  text-align: right;
+  color: gray;
+}
+
 @media (max-width: 650px) {
   body {
     font-size: 0.8rem;
     margin: 5% 2%;
+  }
+  figcaption {
+    font-size: 0.6rem;
   }
   section {
     padding-left: 1em;
